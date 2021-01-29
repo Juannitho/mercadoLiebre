@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js -e ejs,js,css,html,jpg,png,scss",
+    "start": "node app.js",
     "ui": "browser-sync start --proxy localhost:3030 --files=**/*  --ignore=node_modules --reload-delay 500 --no-ui --no-inject-changes --port 3030 --browser \"firefox developer edition\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
