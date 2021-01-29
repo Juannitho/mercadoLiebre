@@ -142,13 +142,10 @@ main .recomendaciones {
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    height: 320px;
+    height: 300px;
     margin-bottom: 32px;
     padding: 24px 16px;
-    position: relative;
-    overflow: hidden;
     transition: all .4s;
-    z-index: 0;
 }
 
 .producto img {
@@ -201,7 +198,7 @@ main .recomendaciones {
 
 .producto:hover {
     box-shadow: 0 0 24px rgba(100, 100, 100, .2);
-    height: 350px;
+    height: 330px;
 }
 
 .producto:hover > .productDescription .nombre {
@@ -246,6 +243,11 @@ footer {
     color: var(--Celeste);
     font-size: 2em;
     margin-bottom: 10px;
+    transition: all .5s;
+}
+
+.bullet-benefit:hover > .icon i {
+    color: var(--Verde);
 }
 
 .legal {
@@ -380,6 +382,12 @@ footer {
         flex-basis: 30%;
     }
 
+    .recomendaciones, .ofertas {
+        max-width: 1140px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
     .producto {
         width: calc(25% - 24px);
     }
@@ -390,5 +398,11 @@ footer {
     
     .producto .productDescription .descuento {
         width: 50%;
+    }
+
+    footer section{
+        max-width: 1140px;
+        margin: 0 auto;
+        width: 100%;
     }
 }

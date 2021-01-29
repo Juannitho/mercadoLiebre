@@ -5,6 +5,7 @@
     --Gris_oscuro: #666;
     --Gris_claro: #ebebeb;
     --Verde: #39b54a;
+    --hover: #0022AA;
 }
 
 header {
@@ -41,8 +42,8 @@ main {
     box-shadow: 0 0 24px rgba(100, 100, 100, .2);
     border-radius: 8px;
     margin-top: -50px;
-    margin-bottom: 32px;
-    max-width: 1440px;
+    margin-bottom: 56px;
+    max-width: 1140px;
     padding: 24px;
     position: relative;
     width: 90%;
@@ -182,12 +183,19 @@ p.input-label {
     border: 2px solid var(--Celeste);
     border-radius: 8px;
     color: white;
+    cursor: pointer;
     display: block;
     font-size: 18px;
     font-weight: 500;
     outline: 0;
     padding: 24px 0;
     width: 100%;
+    transition: all .4s;
+}
+
+.buttonWrapper button[type="submit"]:hover {
+    background-color: var(--hover);
+    border: 2px solid var(--hover);
 }
 
 .buttonWrapper button:not(:last-child) {
@@ -318,7 +326,7 @@ label.fileLabel span {
 
     .subheader-nomenu .ingresa {
         display: flex;
-        justify-content: right;
+        justify-content: flex-end;
         width: 50%;
     }
 

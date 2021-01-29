@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "ui": "browser-sync start --proxy localhost:3030 --files=**/*  --ignore=node_modules --reload-delay 500 --no-ui --no-inject-changes --port 3030 --browser \"firefox developer edition\"",
+    "ui": "browser-sync start --proxy localhost:3010 --files=**/*  --ignore=node_modules --reload-delay 500 --no-ui --no-inject-changes --port 3010 --browser \"google chrome\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Juan Castañeda",
