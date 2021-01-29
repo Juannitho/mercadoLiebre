@@ -304,6 +304,10 @@ label.fileLabel span {
     display: block;
 }
 
+.checkbox-login {
+    width: 100%;
+}
+
 
 /* Tablet */
 
@@ -377,7 +381,7 @@ label.fileLabel span {
     }
     
     main {
-        width: 60%;
+        width: 40%;
     }
 
     .buttonWrapper button {

@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "nodemon app.js",
     "ui": "browser-sync start --proxy localhost:3010 --files=**/*  --ignore=node_modules --reload-delay 500 --no-ui --no-inject-changes --port 3010 --browser \"google chrome\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
